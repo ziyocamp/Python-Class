@@ -30,3 +30,40 @@ products = [
     Product("Power Bank", 45.00, "Accessories", 150, "Xiaomi", 4.3),
     Product("Projector", 550.00, "Office", 5, "Epson", 4.1),
 ]
+
+
+
+for product in products:
+    if product.price>
+    expensive_product.price:
+        expensive_product=product
+print(expensive_product.name,expensive_product.price)
+
+
+
+
+for product in products:
+    if product.price<chippest_product.price:
+        chippest_product=product
+print(chippest_product.name,chippest_product.price)
+
+
+
+categories=[product.category for product in products]
+print(categories)
+
+
+
+brands=[product.brand for product in products]
+print(brands)
+
+
+
+top=max(products,key=lambda product:product.price)
+print(top.name,top.price)
+
+
+last=min(products,key=lambda product:
+         print(last.name,last.price)
+    
+              
